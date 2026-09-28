@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/stitchlist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stitch HTML/Markdown list fragments safely for docs pipelines.",
+  "bin": {
+    "stitchlist": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/stitchlist.git"
+  },
+  "homepage": "https://theworker02.github.io/stitchlist/",
+  "keywords": [
+    "stitch",
+    "list",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
